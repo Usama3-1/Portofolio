@@ -1,56 +1,257 @@
-/**
-* Template Name: PhotoFolio
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Updated: Jun 06 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
+
 :root {
+  --background-color: #ffffff; /* Light background */
+  --default-color: #333333; /* Darker text for better contrast */
+  --heading-color: #000000; /* Black for headings */
+  --accent-color: #007BFF; /* Bright blue for accents */
+  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
+}
+
+body {
+  background: var(--background-color);
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+/* Uniform navigation style */
+.navmenu ul {
+  background-color: var(--background-color);
+}
+
+.navmenu a {
+  color: var(--default-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navmenu a:hover {
+  color: var(--accent-color);
+}
+
+/* Improved visibility for social media icons */
+.header .header-social-links a i {
+  font-size: 20px;
+  color: var(--accent-color);
+  padding: 8px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header .header-social-links a i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Lighter hero section */
+.hero {
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  color: var(--default-color);
+}
+
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Cardo",  sans-serif;
   --nav-font: "Inter",  sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #FDFAFB; /* Background color for the entire website, including individual sections */
-  --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #f7a9a9; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --contrast-color: #f4e6eb; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+
+:root {
+  --background-color: #ffffff; /* Light background */
+  --default-color: #333333; /* Darker text for better contrast */
+  --heading-color: #000000; /* Black for headings */
+  --accent-color: #007BFF; /* Bright blue for accents */
+  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+body {
+  background: var(--background-color);
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+/* Uniform navigation style */
+.navmenu ul {
+  background-color: var(--background-color);
+}
+
+.navmenu a {
+  color: var(--default-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navmenu a:hover {
+  color: var(--accent-color);
+}
+
+/* Improved visibility for social media icons */
+.header .header-social-links a i {
+  font-size: 20px;
+  color: var(--accent-color);
+  padding: 8px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header .header-social-links a i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Lighter hero section */
+.hero {
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  color: var(--default-color);
+}
+ 
+  --background-color: #202124; /* Dark background for sections */
+  --default-color: #ffffff; /* Light color for majority of text content */
+  --heading-color: #FFD700; /* Gold color for headings, representing creativity */
+  --accent-color: #FF6347; /* Coral for accent elements */
+  --contrast-color: #2E2E2E; /* Slightly lighter dark tone for contrast */
+}
+
+
 :root {
-  --nav-color: rgba(0, 0, 0, 0.5);  /* The default color of the main navmenu links */
-  --nav-hover-color: #000000; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-dropdown-background-color: #161718; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: rgba(255, 255, 255, 0.5); /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #323232; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --background-color: #ffffff; /* Light background */
+  --default-color: #333333; /* Darker text for better contrast */
+  --heading-color: #000000; /* Black for headings */
+  --accent-color: #007BFF; /* Bright blue for accents */
+  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
+}
+
+body {
+  background: var(--background-color);
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+/* Uniform navigation style */
+.navmenu ul {
+  background-color: var(--background-color);
+}
+
+.navmenu a {
+  color: var(--default-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navmenu a:hover {
+  color: var(--accent-color);
+}
+
+/* Improved visibility for social media icons */
+.header .header-social-links a i {
+  font-size: 20px;
+  color: var(--accent-color);
+  padding: 8px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header .header-social-links a i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Lighter hero section */
+.hero {
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  color: var(--default-color);
+}
+
+  --nav-color: rgba(0, 0, 0, 0.5);  
+  --nav-hover-color: #000000; 
+  --nav-dropdown-background-color: #161718; 
+  --nav-dropdown-color: rgba(255, 255, 255, 0.5);
+  --nav-dropdown-hover-color: #323232;
 }
 
 /* Smooth scroll */
+
 :root {
+  --background-color: #ffffff; /* Light background */
+  --default-color: #333333; /* Darker text for better contrast */
+  --heading-color: #000000; /* Black for headings */
+  --accent-color: #007BFF; /* Bright blue for accents */
+  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
+}
+
+body {
+  background: var(--background-color);
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+/* Uniform navigation style */
+.navmenu ul {
+  background-color: var(--background-color);
+}
+
+.navmenu a {
+  color: var(--default-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navmenu a:hover {
+  color: var(--accent-color);
+}
+
+/* Improved visibility for social media icons */
+.header .header-social-links a i {
+  font-size: 20px;
+  color: var(--accent-color);
+  padding: 8px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header .header-social-links a i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Lighter hero section */
+.hero {
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  color: var(--default-color);
+}
+
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+
 body {
+  background: linear-gradient(180deg, #202124, #2E2E2E); /* Dark gradient for overall background */
+
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
   border: #000000;
 }
 
+
 a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
   color: var(--accent-color);
   text-decoration: none;
   transition: 0.3s;
@@ -71,9 +272,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/*--------------------------------------------------------------
-# Global Header
---------------------------------------------------------------*/
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -83,10 +281,10 @@ h6 {
 }
 
 .service-item {
-  background-color: #ffffff; /* Add background color if needed */
+  background-color: #ffffff; 
   padding: 30px;
-  border-radius: 10px; /* Adjust the radius value to your preference */
-  transition: all 0.3s ease; /* Add smooth transition for hover effect */
+  border-radius: 10px; 
+  transition: all 0.3s ease;
 }
 
 .service-item:hover {
@@ -120,7 +318,12 @@ h6 {
   padding-right: 15px;
 }
 
-.header .header-social-links a {
+.header .header-social-links 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding-left: 6px;
   display: inline-block;
@@ -153,7 +356,12 @@ h6 {
     order: 2;
   }
 
-  .header .header-social-links a {
+  .header .header-social-links 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
     font-size: 16px;
   }
 
@@ -211,7 +419,12 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu li:last-child a {
+  .navmenu li:last-child 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
     padding-right: 0;
   }
 
@@ -240,7 +453,12 @@ h6 {
     min-width: 200px;
   }
 
-  .navmenu .dropdown ul a {
+  .navmenu .dropdown ul 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
@@ -253,7 +471,12 @@ h6 {
 
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
-  .navmenu .dropdown ul li:hover>a {
+  .navmenu .dropdown ul li:hover>
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
     color: var(--nav-dropdown-hover-color);
   }
 
@@ -424,7 +647,12 @@ h6 {
   margin-top: 20px;
 }
 
-.footer .social-links a {
+.footer .social-links 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -793,7 +1021,9 @@ section,
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--accent-color); /* Add accent border for gallery items */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
 }
 
 .gallery .gallery-item img {
@@ -805,7 +1035,7 @@ section,
   inset: 0;
   opacity: 0;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(209, 133, 133, 0.6);
   z-index: 3;
 }
 
@@ -1193,7 +1423,12 @@ section,
   font-family: var(--default-font);
 }
 
-.services .service-item h4 a {
+.services .service-item h4 
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
   color: var(--heading-color);
   transition: ease-in-out 0.3s;
 }
@@ -1331,7 +1566,12 @@ section,
 
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
+.contact .php-email-form textare
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
