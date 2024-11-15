@@ -44,10 +44,14 @@
 # General
 --------------------------------------------------------------*/
 body {
-  color: var(--default-color);
-  background-color: #0d82dc;
-  font-family: var(--default-font);
+  color: #ffffff; /* White text for better contrast */
+  background-color: #a4d8f0; /* Light blue background */
+  font-family: Arial, Helvetica, sans-serif; /* Clean and readable font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improve text spacing */
 }
+
 
 a {
   color: var(--accent-color);
