@@ -1,62 +1,4 @@
 
-
-:root {
-  --background-color: #ffffff; /* Light background */
-  --default-color: #333333; /* Darker text for better contrast */
-  --heading-color: #000000; /* Black for headings */
-  --accent-color: #007BFF; /* Bright blue for accents */
-  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
-}
-
-body {
-  background: var(--background-color);
-  color: var(--default-color);
-  font-family: var(--default-font);
-}
-
-/* Uniform navigation style */
-.navmenu ul {
-  background-color: var(--background-color);
-}
-
-.navmenu a {
-  color: var(--default-color);
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px 15px;
-  transition: color 0.3s ease;
-}
-
-.navmenu a:hover {
-  color: var(--accent-color);
-}
-
-/* Improved visibility for social media icons */
-.header .header-social-links a i {
-  font-size: 20px;
-  color: var(--accent-color);
-  padding: 8px;
-  border: 2px solid var(--accent-color);
-  border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.header .header-social-links a i:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-/* Lighter hero section */
-.hero {
-  background: linear-gradient(to right, #f9f9f9, #ffffff);
-  color: var(--default-color);
-}
-
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Cardo",  sans-serif;
-  --nav-font: "Inter",  sans-serif;
-}
-
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 
 :root {
@@ -117,125 +59,6 @@ body {
   --accent-color: #FF6347; /* Coral for accent elements */
   --contrast-color: #2E2E2E; /* Slightly lighter dark tone for contrast */
 }
-
-
-:root {
-  --background-color: #ffffff; /* Light background */
-  --default-color: #333333; /* Darker text for better contrast */
-  --heading-color: #000000; /* Black for headings */
-  --accent-color: #007BFF; /* Bright blue for accents */
-  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
-}
-
-body {
-  background: var(--background-color);
-  color: var(--default-color);
-  font-family: var(--default-font);
-}
-
-/* Uniform navigation style */
-.navmenu ul {
-  background-color: var(--background-color);
-}
-
-.navmenu a {
-  color: var(--default-color);
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px 15px;
-  transition: color 0.3s ease;
-}
-
-.navmenu a:hover {
-  color: var(--accent-color);
-}
-
-/* Improved visibility for social media icons */
-.header .header-social-links a i {
-  font-size: 20px;
-  color: var(--accent-color);
-  padding: 8px;
-  border: 2px solid var(--accent-color);
-  border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.header .header-social-links a i:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-/* Lighter hero section */
-.hero {
-  background: linear-gradient(to right, #f9f9f9, #ffffff);
-  color: var(--default-color);
-}
-
-  --nav-color: rgba(0, 0, 0, 0.5);  
-  --nav-hover-color: #000000; 
-  --nav-dropdown-background-color: #161718; 
-  --nav-dropdown-color: rgba(255, 255, 255, 0.5);
-  --nav-dropdown-hover-color: #323232;
-}
-
-/* Smooth scroll */
-
-:root {
-  --background-color: #ffffff; /* Light background */
-  --default-color: #333333; /* Darker text for better contrast */
-  --heading-color: #000000; /* Black for headings */
-  --accent-color: #007BFF; /* Bright blue for accents */
-  --contrast-color: #F5F5F5; /* Light gray for contrast areas */
-}
-
-body {
-  background: var(--background-color);
-  color: var(--default-color);
-  font-family: var(--default-font);
-}
-
-/* Uniform navigation style */
-.navmenu ul {
-  background-color: var(--background-color);
-}
-
-.navmenu a {
-  color: var(--default-color);
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px 15px;
-  transition: color 0.3s ease;
-}
-
-.navmenu a:hover {
-  color: var(--accent-color);
-}
-
-/* Improved visibility for social media icons */
-.header .header-social-links a i {
-  font-size: 20px;
-  color: var(--accent-color);
-  padding: 8px;
-  border: 2px solid var(--accent-color);
-  border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.header .header-social-links a i:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-/* Lighter hero section */
-.hero {
-  background: linear-gradient(to right, #f9f9f9, #ffffff);
-  color: var(--default-color);
-}
-
-  scroll-behavior: smooth;
-}
-
-
 
 body {
   background: linear-gradient(180deg, #202124, #2E2E2E); /* Dark gradient for overall background */
@@ -1110,9 +933,7 @@ section,
   line-height: 0;
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+
 .testimonials .testimonial-item {
   box-shadow: 0px 0 20px color-mix(in srgb, var(--default-color), transparent 90%);
   box-sizing: content-box;
@@ -1203,9 +1024,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery Details Section
---------------------------------------------------------------*/
+
 .gallery-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1378,9 +1197,7 @@ section,
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
+
 .services .service-item {
   background-color: var(--contrast-color);
   padding: 50px 30px;
@@ -1426,7 +1243,7 @@ section,
 .services .service-item h4 
 a {
   color: var(--accent-color);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
 
   color: var(--heading-color);
@@ -1456,175 +1273,4 @@ a {
   border-radius: 0px;
 }
 
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
-.pricing .pricing-item {
-  --heading-font: var(--default-font);
-  border-bottom: 1px dashed color-mix(in srgb, var(--default-color), transparent 60%);
-  width: 100%;
-  height: 100%;
-  padding: 0 0 15px 0;
-}
 
-.pricing .pricing-item h3 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-.pricing .pricing-item h4 {
-  margin: 0;
-  font-size: 16px;
-}
-
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-.contact .info-wrap {
-  margin-bottom: 30px;
-}
-
-.contact .info-item i {
-  font-size: 20px;
-  color: var(--accent-color);
-  width: 56px;
-  height: 56px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
-  margin-right: 15px;
-}
-
-.contact .info-item h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0 0 5px 0;
-  font-family: var(--default-font);
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-@media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
-  }
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: var(--background-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--background-color);
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textare
-a {
-  color: var(--accent-color);
-  text-decoration: underline;
-  font-weight: bold;
-
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--default-color);
-  background: var(--accent-color);
-  font-weight: 400;
-  font-size: 14px;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 14px 40px;
-  border: 0;
-  border-radius: 4px;
-  transition: 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
