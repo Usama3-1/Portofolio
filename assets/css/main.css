@@ -45,7 +45,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #beddf5;
   font-family: var(--default-font);
 }
 
